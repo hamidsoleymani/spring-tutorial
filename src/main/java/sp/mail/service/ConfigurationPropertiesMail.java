@@ -2,7 +2,6 @@ package sp.mail.service;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 
-
 @ConfigurationProperties(prefix = "mail")
 //By default, the annotation reads from the application.properties file.
 //The source file can be changed with @PropertySource annotation
