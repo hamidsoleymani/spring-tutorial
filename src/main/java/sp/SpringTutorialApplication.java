@@ -4,7 +4,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import sp.mail.service.ConfigurationPropertiesMail;
-//
+
 
 @SpringBootApplication
 @EnableConfigurationProperties(ConfigurationPropertiesMail.class)

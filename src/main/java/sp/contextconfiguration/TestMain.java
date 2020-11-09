@@ -7,7 +7,7 @@ import java.util.Arrays;
 
 public class TestMain {
     public static void main(String[] args) {
-        AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(AppConfig.class);
+        AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(ABDConfig.class);
         ConfigurableEnvironment env = context.getEnvironment();
       //  env.setActiveProfiles("qa");
 
